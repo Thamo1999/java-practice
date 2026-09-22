@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class Arrayadnstrings {
     public  static void main(){
-
-       System.out.print(parameter(1,2));
+       findarraysum();
     }
    static void Reversestring(){
         Scanner sc = new Scanner(System.in);
