@@ -1,9 +1,8 @@
 import java.util.Scanner;
 public class Arrayadnstrings {
     public  static void main(){
-        Reversestring();
-        palindrom();
-        Reversearray();
+
+       System.out.print(parameter(1,2));
     }
    static void Reversestring(){
         Scanner sc = new Scanner(System.in);
@@ -35,5 +34,16 @@ public class Arrayadnstrings {
         for (int i=numbers.length-1;i>=0;i--){
             System.out.print(numbers[i]+"");
         }
+    }
+    static void findarraysum(){
+        int[] arr ={1,2,3,4,5,6,7};
+        int sum = 0;
+        for (int i = 0;i<arr.length;i++){
+           sum = sum+arr[i];
+        }
+        System.out.print(sum);
+    }
+    static int parameter(int a,int b){
+       return a+b;
     }
 }
