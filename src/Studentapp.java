@@ -54,7 +54,7 @@ public class Studentapp {
                     break;
                 case 3:
                     char grade = calculatemark(mark);
-                    System.out.println("garde"+grade);
+                    System.out.println("garde"+ grade);
                     break;
                 case 4:
                     System.out.println("thank you");
