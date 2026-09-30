@@ -11,6 +11,9 @@ public class classobject {
     }
     public static void main(String[] args){
         classobject student1 = new classobject("thamo",26);
+        classobject student2= new classobject("muni",24);
         student1.display();
+        student2.display();
+
     }
 }
